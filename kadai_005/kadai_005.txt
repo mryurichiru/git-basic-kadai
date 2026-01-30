@@ -1,0 +1,23 @@
+mryur@YuriLenovo MINGW64 ~/Desktop/samurai/kadai
+$ git init
+Initialized empty Git repository in C:/Users/mryur/Desktop/samurai/kadai/.git/
+
+mryur@YuriLenovo MINGW64 ~/Desktop/samurai/kadai (main)
+$ cd git_challenge
+
+mryur@YuriLenovo MINGW64 ~/Desktop/samurai/kadai/git_challenge (main)
+$ git add hello_world.txt
+
+mryur@YuriLenovo MINGW64 ~/Desktop/samurai/kadai/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) f546099] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_challenge/hello_world.txt
+
+mryur@YuriLenovo MINGW64 ~/Desktop/samurai/kadai/git_challenge (main)
+$ git add hello_world.txt
+
+mryur@YuriLenovo MINGW64 ~/Desktop/samurai/kadai/git_challenge (main)
+$ git commit -v
+[main d6be800] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
